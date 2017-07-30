@@ -1,0 +1,17 @@
+
+---
+baseURL: "https://weivayn.github.io/hugotest/"
+title: "My Hugo Site"
+publishDir: docs
+footnoteReturnLinkContents: "↩"
+permalinks:
+  post: /:year/:month/:title/
+params:
+  Subtitle: "Hugo is Absurdly Fast!"
+  AuthorName: "Jon Doe"
+  GitHubUser: "spf13"
+  ListOfFoo:
+    - "foo1"
+    - "foo2"
+  SidebarRecentLimit: 5
+...
